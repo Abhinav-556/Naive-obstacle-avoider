@@ -10,19 +10,13 @@ echo "Running Naive Obstacle Avoider with Bash Script..."
 echo "Press Ctrl+C to Terminate..."
 
 # make sure that the robot is stopped initially
-# set linear velocity to zero here
+# set linear velocity to zero 
 set_cmd_vel_linear 0.000
-# set angular velocity to zero here
+# set angular velocity to zero 
 set_cmd_vel_angular 0.000
 
 # set obstacle avoidance distance threshold
 threshold=0.300
-
-# your own function definitions, if you have any
-# ...
-# ...
-# ...
-
 # main while loop for naive obstacle avoider
 echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 while :
